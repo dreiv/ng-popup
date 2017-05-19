@@ -6,13 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent {
+  private isActive: boolean;
+
   constructor() { }
 
-  open() {
+  openModal() {
     console.log('modal opened');
+    this.isActive = true;
   }
 
-  close() {
+  closeModal() {
     console.log('modal closed');
+    this.isActive = false;
   }
 }

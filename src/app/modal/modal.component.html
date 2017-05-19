@@ -1,8 +1,9 @@
-<div class=modal-container>
-  <button class="modal-open" (click)="open()">Open Modal</button>
-  <div class="modal-content">
-    <button class="modal-close" (click)="close()">Close</button>
+<button class="modal-trigger" (click)="openModal()">Open Modal</button>
+<div class=modal-backdrop [class.modal-active]="isActive" (click)="closeModal()">
+  <div class=modal-dialog>
+    <div class=modal-close (click)="closeModal()">X</div>
     <h2>Modal title</h2><hr />
+
     <p>Hello from inside the modal!</p>
   </div>
 </div>
