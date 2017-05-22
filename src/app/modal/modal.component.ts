@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal.component.css']
 })
 export class ModalComponent {
-  private isActive: boolean;
+  isActive: boolean;
 
   constructor() { }
 
