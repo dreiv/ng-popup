@@ -52,7 +52,7 @@
 
   box-sizing: border-box;
   max-width: 600px;
-  max-height: calc(100vh - 2.4rem);
+  max-height: calc(100% - 2.4rem);
   margin: 1.2rem;
 
   background: white;
@@ -95,7 +95,7 @@
 {
   .modal-dialog
   {
-    max-height: calc(100vh - 1.2rem);
+    max-height: calc(100% - 1.2rem);
     margin: .6rem;
   }
 
