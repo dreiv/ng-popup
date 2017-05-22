@@ -75,6 +75,8 @@
   padding-right: .6rem;
   padding-left: 2.4rem;
 
+  background: #ddd;
+
   flex-wrap: wrap;
 }
 
